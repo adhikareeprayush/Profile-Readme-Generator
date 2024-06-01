@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <title>ReadMe Generator</title>
+</head>
+
+<body>
+    <header>
+        <h2>ReadMe Generator</h2>
+        <div class="buttons">
+            <a href="#" class="star-repo btn">
+                <i class="fa-solid fa-star"></i>
+                <span>Star The Repo</span>
+            </a>
+            <a href="#" class="fork-github btn">
+                <i class="fa-solid fa-code-fork"></i>
+                <span>Fork The Repo</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="form-group">
+                <div class="form-header">
+                    <h3>Title</h3>
+                </div>
+                <div class="input-group">
+                    <span>Hi '👋' I'm</span>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-header">
+                    <h3>Subtitle</h3>
+                </div>
+                <div class="input-group">
+                    <span>I'm a</span>
+                    <input type="text" id="subtitle" name="subtitle" placeholder="Your Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-header">
+                    <h3>Work</h3>
+                </div>
+
+                <div class="input-group">
+                    <span>Currently working on</span>
+                    <input type="text" id="working-project" name="working-project" placeholder="Project Name">
+                    <input type="text" id="working-project-link" name="working-project-link" placeholder="Project Link">
+                </div>
+                <div class="input-group">
+                    <span>I'm looking too collaborate on</span>
+                    <input type="text" id="collaborate-project" name="collaborate-project" placeholder="Project Name">
+                    <input type="text" id="collaborate-project-link" name="collaborate-project-link"
+                        placeholder="Project Link">
+                </div>
+                <div class="input-group">
+                    <span>I'm looking for help with</span>
+                    <input type="text" id="help-project" name="help-project" placeholder="Project Name">
+                    <input type="text" id="help-project-link" name="help-project-link" placeholder="Project Link">
+                </div>
+                <div class="input-group">
+                    <span>I am currently learning</span>
+                    <input type="text" id="learning" name="learning" placeholder="Learning">
+                </div>
+                <div class="input-group">
+                    <span>Ask me about</span>
+                    <input type="text" id="ask-me" name="ask-me" placeholder="Ask Me">
+                </div>
+                <div class="input-group">
+                    <span>How to reach me</span>
+                    <input type="text" id="reach-me" name="reach-me" placeholder="Reach Me">
+                </div>
+                <div class="input-group">
+                    <span>All of my projects available at</span>
+                    <input type="text" id="projects" name="projects" placeholder="Projects">
+                </div>
+                <div class="input-group">
+                    <span>I regularly write articles on</span>
+                    <input type="text" id="articles" name="articles" placeholder="Articles">
+                </div>
+                <div class="input-group">
+                    <span>Know about my experiences</span>
+                    <input type="text" id="experiences" name="experiences" placeholder="Experiences">
+                </div>
+                <div class="input-group">
+                    <span>Fun fact</span>
+                    <input type="text" id="fun-fact" name="fun-fact" placeholder="Fun Fact">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-header">
+                    <h3>Skills</h3>
+                </div>
+                <div class="input-group">
+                    <span>Programming Languages</span>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="javascript" name="javascript">
+                        <label for="javascript">
+                            <i class="devicon-javascript-plain"></i>
+                        </label>
+                        <input type="checkbox" id="python" name="python">
+                        <label for="python">
+                            <i class="devicon-python-plain"></i>
+                        </label>
+                        <input type="checkbox" id="java" name="java">
+                        <label for="java">
+                            <i class="devicon-java-plain"></i>
+                        </label>
+                        <input type="checkbox" id="c" name="c">
+                        <label for="c">
+                            <i class="devicon-c-plain"></i>
+                        </label>
+                        <input type="checkbox" id="c++" name="c++">
+                        <label for="c++">
+                            <i class="devicon-cplusplus-plain"></i>
+                        </label>
+                        <input type="checkbox" id="php" name="php">
+                        <label for="php">
+                            <i class="devicon-php-plain"></i>
+                        </label>
+                        <input type="checkbox" id="ruby" name="ruby">
+                        <label for="ruby">
+                            <i class="devicon-ruby-plain"></i>
+                        </label>
+                        <input type="checkbox" id="typescript" name="typescript">
+                        <label for="typescript">
+                            <i class="devicon-typescript-plain"></i>
+                        </label>
+                        <input type="checkbox" id="swift" name="swift">
+                        <label for="swift">
+                            <i class="devicon-swift-plain"></i>
+                        </label>
+                        <input type="checkbox" id="go" name="go">
+                        <label for="go">
+                            <i class="devicon-go-plain"></i>
+                        </label>
+                        <input type="checkbox" id="rust" name="rust">
+                        <label for="rust">
+                            <i class="devicon-rust-plain"></i>
+                        </label>
+                        <input type="checkbox" id="scala" name="scala">
+                        <label for="scala">
+                            <i class="devicon-scala-plain"></i>
+                        </label>
+                        <input type="checkbox" id="kotlin" name="kotlin">
+                        <label for="kotlin">
+                            <i class="devicon-kotlin-plain"></i>
+                        </label>
+                        <input type="checkbox" id="dart" name="dart">
+                        <label for="dart">
+                            <i class="devicon-dart-plain"></i>
+                        </label>
+                        <input type="checkbox" id="elixir" name="elixir">
+                        <label for="elixir">
+                            <i class="devicon-elixir-plain"></i>
+                        </label>
+                        <input type="checkbox" id="haskell" name="haskell">
+                        <label for="haskell">
+                            <i class="devicon-haskell-plain"></i>
+                        </label>
+                        <input type="checkbox" id="lua" name="lua">
+                        <label for="lua">
+                            <i class="devicon-lua-plain"></i>
+                        </label>
+                        <input type="checkbox" id="perl" name="perl">
+                        <label for="perl">
+                            <i class="devicon-perl-plain"></i>
+                        </label>
+                        <input type="checkbox" id="r" name="r">
+                        <label for="r">
+                            <i class="devicon-r-plain"></i>
+                        </label>
+                        <input type="checkbox" id="shell" name="shell">
+                        <label for="shell">
+                            <i class="devicon-shell-plain"></i>
+                        </label>
+                        <input type="checkbox" id="sql" name="sql">
+                        <label for="sql">
+                            <i class="devicon-sql-plain"></i>
+                        </label>
+                        <input type="checkbox" id="html" name="html">
+                        <label for="html">
+                            <i class="devicon-html5-plain"></i>
+                        </label>
+                        <input type="checkbox" id="css" name="css">
+                        <label for="css">
+                            <i class="devicon-css3-plain"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span>Frontend Design</span>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="react" name="react">
+                        <label for="react">
+                            <i class="devicon-react-original"></i>
+                        </label>
+                        <input type="checkbox" id="angular" name="angular">
+                        <label for="angular">
+                            <i class="devicon-angularjs-plain"></i>
+                        </label>
+                        <input type="checkbox" id="vue" name="vue">
+                        <label for="vue">
+                            <i class="devicon-vuejs-plain"></i>
+                        </label>
+                        <input type="checkbox" id="svelte" name="svelte">
+                        <label for="svelte">
+                            <i class="devicon-svelte-plain"></i>
+                        </label>
+                        <input type="checkbox" id="bootstrap" name="bootstrap">
+                        <label for="bootstrap">
+                            <i class="devicon-bootstrap-plain"></i>
+                        </label>
+                        <input type="checkbox" id="tailwind" name="tailwind">
+                        <label for="tailwind">
+                            <i class="devicon-tailwindcss-plain"></i>
+                        </label>
+                        <input type="checkbox" id="sass" name="sass">
+                        <label for="sass">
+                            <i class="devicon-sass-original"></i>
+                        </label>
+                        <input type="checkbox" id="less" name="less">
+                        <label for="less">
+                            <i class="devicon-less-plain-wordmark"></i>
+                        </label>
+                        <input type="checkbox" id="materialize" name="materialize">
+                        <label for="materialize">
+                            <i class="devicon-materializecss-plain"></i>
+                        </label>
+                        <input type="checkbox" id="bulma" name="bulma">
+                        <label for="bulma">
+                            <i class="devicon-bulma-plain"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span>Backend Development</span>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="node" name="node">
+                        <label for="node">
+                            <i class="devicon-nodejs-plain"></i>
+                        </label>
+                        <input type="checkbox" id="express" name="express">
+                        <label for="express">
+                            <i class="devicon-express-original"></i>
+                        </label>
+                        <input type="checkbox" id="django" name="django">
+                        <label for="django">
+                            <i class="devicon-django-plain"></i>
+                        </label>
+                        <input type="checkbox" id="flask" name="flask">
+                        <label for="flask">
+                            <i class="devicon-flask-original"></i>
+                        </label>
+                        <input type="checkbox" id="laravel" name="laravel">
+                        <label for="laravel">
+                            <i class="devicon-laravel-plain"></i>
+                        </label>
+                        <input type="checkbox" id="spring" name="spring">
+                        <label for="spring">
+                            <i class="devicon-spring-plain"></i>
+                        </label>
+                        <input type="checkbox" id="ruby-on-rails" name="ruby-on-rails">
+                        <label for="ruby-on-rails">
+                            <i class="devicon-rails-plain"></i>
+                        </label>
+                        <input type="checkbox" id="asp" name="asp">
+                        <label for="asp">
+                            <i class="devicon-dot-net-plain"></i>
+                        </label>
+                        <input type="checkbox" id="php" name="php">
+                        <label for="php">
+                            <i class="devicon-php-plain"></i>
+                        </label>
+
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span>Mobile App Development</span>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="android" name="android">
+                        <label for="android">
+                            <i class="devicon-android-plain"></i>
+                        </label>
+                        <input type="checkbox" id="ios" name="ios">
+                        <label for="ios">
+                            <i class="devicon-apple-original"></i>
+                        </label>
+                        <input type="checkbox" id="react-native" name="react-native">
+                        <label for="react-native">
+                            <i class="devicon-react-original"></i>
+                        </label>
+                        <input type="checkbox" id="flutter" name="flutter">
+                        <label for="flutter">
+                            <i class="devicon-flutter-plain"></i>
+                        </label>
+                        <input type="checkbox" id="ionic" name="ionic">
+                        <label for="ionic">
+                            <i class="devicon-ionic-original"></i>
+                        </label>
+                        <input type="checkbox" id="xamarin" name="xamarin">
+                        <label for="xamarin">
+                            <i class="devicon-xamarin-plain"></i>
+                        </label>
+
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span>Database</span>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="mysql" name="mysql">
+                        <label for="mysql">
+                            <i class="devicon-mysql-plain"></i>
+                        </label>
+                        <input type="checkbox" id="mongodb" name="mongodb">
+                        <label for="mongodb">
+                            <i class="devicon-mongodb-plain"></i>
+                        </label>
+                        <input type="checkbox" id="postgresql" name="postgresql">
+                        <label for="postgresql">
+                            <i class="devicon-postgresql-plain"></i>
+                        </label>
+                        <input type="checkbox" id="sqlite" name="sqlite">
+                        <label for="sqlite">
+                            <i class="devicon-sqlite-plain"></i>
+                        </label>
+                        <input type="checkbox" id="oracle" name="oracle">
+                        <label for="oracle">
+                            <i class="devicon-oracle-original"></i>
+                        </label>
+                        <input type="checkbox" id="sqlserver" name="sqlserver">
+                        <label for="sqlserver">
+                            <i class="devicon-microsoftsqlserver-plain"></i>
+                        </label>
+                        <input type="checkbox" id="cassandra" name="cassandra">
+                        <label for="cassandra">
+                            <i class="devicon-cassandra-plain"></i>
+                        </label>
+                        <input type="checkbox" id="redis" name="redis">
+                        <label for="redis">
+                            <i class="devicon-redis-plain"></i>
+                        </label>
+                        <input type="checkbox" id="firebase" name="firebase">
+                        <label for="firebase">
+                            <i class="devicon-firebase-plain"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ff93a9b414.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
