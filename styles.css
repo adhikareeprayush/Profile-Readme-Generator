@@ -61,3 +61,54 @@ a {
 .btn i {
   font-size: 20px;
 }
+
+.btn span {
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.form-header {
+  font-size: 1.3rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.input-group span {
+  font-size: 1.1rem;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 0.8rem;
+  outline: 0px;
+}
+.title input,
+.subtitle input {
+  width: 40%;
+}
+
+input:focus {
+  border-bottom: 1px solid black;
+}
