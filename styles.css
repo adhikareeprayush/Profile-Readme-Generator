@@ -37,6 +37,7 @@ header h2 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .btn {
@@ -112,7 +113,7 @@ input:focus {
   border-bottom: 1px solid black;
 }
 
-span {
+.form-group span {
   font-weight: 600;
   border-bottom: 1px solid black;
   padding: 10px 0px;
@@ -135,4 +136,14 @@ span {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+.grp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group i {
+  font-size: 30px;
 }
