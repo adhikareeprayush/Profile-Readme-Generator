@@ -18,5 +18,3 @@ console.log(aimlValues);
 
 let dataVisualizationValues = Array.from(document.getElementById('data-visualization').getElementsByTagName('input')).map(input => input.id);
 console.log(dataVisualizationValues);
-
-console.log(programmingLanguageValues.length);
