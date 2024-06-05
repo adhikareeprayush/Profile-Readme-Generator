@@ -37,6 +37,7 @@ header h2 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .btn {
@@ -90,7 +91,6 @@ form {
   display: flex;
   gap: 10px;
   width: 100%;
-  align-items: center;
 }
 
 .input-group span {
@@ -111,4 +111,39 @@ input {
 
 input:focus {
   border-bottom: 1px solid black;
+}
+
+.form-group span {
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+
+#programming-language,
+#frontend,
+#backend,
+#mobile-app,
+#database,
+#ai-ml,
+#database,
+#data-visualization {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.grp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group i {
+  font-size: 30px;
 }
