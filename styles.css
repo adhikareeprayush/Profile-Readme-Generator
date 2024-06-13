@@ -147,7 +147,7 @@ input:focus {
 .input-group i {
   font-size: 30px;
 }
-/* Styling the checkbox */
+
 input[type="checkbox"] {
   height: 15px;
   width: 15px;
