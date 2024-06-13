@@ -147,8 +147,20 @@ input:focus {
 .input-group i {
   font-size: 30px;
 }
-/* Styling the checkbox */
+
 input[type="checkbox"] {
   height: 15px;
   width: 15px;
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #03080d;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
 }
